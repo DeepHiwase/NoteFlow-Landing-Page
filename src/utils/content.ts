@@ -14,7 +14,17 @@ import SMSNotification from "../components/icons/SMSNotification";
 import TwoUsers from "../components/icons/TwoUsers";
 import Lock from "../components/icons/Lock";
 
-const navigationLinks = [
+import type {
+  Feature,
+  FooterCol,
+  FrequentlyAskedQuestion,
+  Logo,
+  NavigationLink,
+  Review,
+  Testimonial,
+} from "./contentTypes";
+
+const navigationLinks: NavigationLink[] = [
   {
     id: 1,
     link: "Home",
@@ -37,7 +47,7 @@ const navigationLinks = [
   },
 ];
 
-const reviews = [
+const reviews: Review[] = [
   {
     id: 1,
     src: new URL("../assets/headshots/img-11.webp", import.meta.url),
@@ -65,7 +75,7 @@ const reviews = [
   },
 ];
 
-const logos = [
+const logos: Logo[] = [
   {
     id: 1,
     src: new URL("../assets/logos/Netflix.webp", import.meta.url),
@@ -108,7 +118,7 @@ const logos = [
   },
 ];
 
-const frequentlyAskedQuestions = [
+const frequentlyAskedQuestions: FrequentlyAskedQuestion[] = [
   {
     category: "General",
     id: 1,
@@ -300,7 +310,7 @@ const frequentlyAskedQuestions = [
   },
 ];
 
-const testimonials = [
+const testimonials: Testimonial[] = [
   {
     id: 1,
     rating: 4,
@@ -454,7 +464,7 @@ const testimonials = [
   },
 ];
 
-const footerCols = [
+const footerCols: FooterCol[] = [
   {
     id: 1,
     category: "Home",
@@ -477,7 +487,7 @@ const footerCols = [
   },
 ];
 
-const features = {
+const features: Feature = {
   SmartOrganization: {
     alt: "Smart Organization graphic",
     heading: "Smart Organization",
