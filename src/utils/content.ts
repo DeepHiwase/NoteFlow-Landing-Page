@@ -108,7 +108,7 @@ const logos: Logo[] = [
   },
   {
     id: 7,
-    src: new URL("../assets/logos/Visa.webp", import.meta.url),
+    src: new URL("../assets/logos/VISA.webp", import.meta.url),
     alt: "Visa Logo",
   },
   {

@@ -2,7 +2,7 @@ import { reviews } from "../../utils/content";
 
 const Reviews = () => {
   return (
-    <section className="gap m-auto flex max-w-[90rem] flex-wrap items-center justify-start gap-x-4 gap-y-4 px-25 pb-10">
+    <section className="gap m-auto flex max-w-[90rem] flex-wrap items-center justify-start gap-x-4 gap-y-4 px-25">
       <ul className="flex items-center">
         {reviews.map((review) => (
           <li key={review.id} className="-mr-4 overflow-clip last:mr-0">
