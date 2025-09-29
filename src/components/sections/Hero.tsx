@@ -1,3 +1,4 @@
+// Assets
 import ArrowRight from "../icons/ArrowRight";
 import ArrowRightLine from "../icons/ArrowRightLine";
 import HeroGraphic from "../../../src/assets/graphics/HeroGraphic.webp";
